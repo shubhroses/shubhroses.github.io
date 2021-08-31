@@ -1794,6 +1794,30 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
+
+div.b {
+  text-align: center;
+  padding-top: 0rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+div.a {
+  text-align: center;
+  padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#portfolio .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
 #portfolio .folio-item {
 	padding: 0;
 	position: relative;
