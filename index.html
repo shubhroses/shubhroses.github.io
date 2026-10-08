@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shubhrose Singh</title>
+  <meta name="description" content="Shubhrose Singh is a DevSecOps engineer in Palo Alto, California, working on Kubernetes platforms, CI/CD pipelines and machine learning infrastructure.">
+  <meta property="og:title" content="Shubhrose Singh">
+  <meta property="og:description" content="DevSecOps engineer working on Kubernetes platforms, CI/CD pipelines and machine learning infrastructure.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shubhroses.github.io/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231f3a5f'/%3E%3Ctext x='32' y='42' font-family='Helvetica,Arial,sans-serif' font-size='28' font-weight='700' text-anchor='middle' fill='%23ffffff'%3ESS%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #fbfaf7;
+      --text: #1c1e21;
+      --muted: #5c6370;
+      --rule: #dedbd3;
+      --accent: #1f3a5f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14171b;
+        --text: #e6e4df;
+        --muted: #9aa1ad;
+        --rule: #2b3038;
+        --accent: #9cc0ec;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main { max-width: 43rem; margin: 0 auto; padding: 4.5rem 1.25rem 4rem; }
+    h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 0.35rem; letter-spacing: -0.01em; }
+    .role { color: var(--muted); margin: 0 0 1.75rem; }
+    h2 {
+      font-size: 0.8rem; letter-spacing: 0.09em; text-transform: uppercase;
+      color: var(--muted); font-weight: 600;
+      margin: 2.75rem 0 0.9rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+    }
+    p { margin: 0 0 1rem; }
+    ul { margin: 0; padding: 0; list-style: none; }
+    li { margin: 0 0 0.95rem; }
+    li strong { font-weight: 600; }
+    a { color: var(--accent); text-decoration: underline; text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+    .when { color: var(--muted); white-space: nowrap; }
+    .links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; }
+    .links li { margin: 0; }
+    footer { margin-top: 3rem; color: var(--muted); font-size: 0.9rem; }
+    @media (max-width: 30rem) {
+      main { padding-top: 3rem; }
+      h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Shubhrose Singh</h1>
+      <p class="role">DevSecOps engineer in Palo Alto, California</p>
+    </header>
+
+    <p>I build and run the infrastructure that gets software and machine learning models into production: Kubernetes platforms, CI/CD pipelines and GPU inference, in the cloud and on premises.</p>
+
+    <section aria-labelledby="work">
+      <h2 id="work">What I work on</h2>
+      <ul>
+        <li><strong>Kubernetes platform.</strong> Helm overlays for applications deployed with Argo CD on RKE2 and GKE, and the autoscaling, ingress and Terraform-managed cloud resources around them.</li>
+        <li><strong>CI/CD.</strong> GitLab CI pipelines that build and scan container images and produce an SBOM for each one, and a self-service pipeline for database schema changes.</li>
+        <li><strong>ML infrastructure.</strong> A FastAPI service that runs multi-stage ML pipelines in containers, and automation for serving large language models with vLLM on GPU nodes.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="projects">
+      <h2 id="projects">Projects</h2>
+      <p>My day-to-day work is in private repositories. These are personal projects.</p>
+      <ul>
+        <li><strong><a href="https://github.com/shubhroses/rocket-telemetry-pipeline">rocket-telemetry-pipeline</a>.</strong> A data pipeline over synthetic rocket engine telemetry: a Python generator that injects data-quality faults, a cleaner that validates and de-duplicates, dbt models for Redshift and a Streamlit dashboard.</li>
+        <li><strong><a href="https://github.com/shubhroses/nba-game-prediction">nba-game-prediction</a>.</strong> A Prefect flow lands the live NBA scoreboard in S3 and a loader copies it into Snowflake; scikit-learn notebooks backtest win prediction; a <a href="https://nba-predictions-app.vercel.app">React app</a> shows bookmaker favourites.</li>
+        <li><strong><a href="https://github.com/shubhroses/finance-tracker">finance-tracker</a>.</strong> A Streamlit dashboard for analysing a stock, comparing tickers and reviewing a portfolio, with Yahoo Finance data and Plotly charts.</li>
+        <li><strong><a href="https://github.com/shubhroses/algoVisualizer">algoVisualizer</a>.</strong> A Flask and p5.js app that animates five sorting algorithms.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="background">
+      <h2 id="background">Background</h2>
+      <ul>
+        <li><strong>DevSecOps Engineer</strong>, Rhombus Power <span class="when">(2025 to present)</span></li>
+        <li><strong>Data Engineer</strong>, USAA <span class="when">(2023 to 2025)</span></li>
+        <li><strong>M.S. Computer Science</strong>, California State Polytechnic University, Pomona <span class="when">(2023)</span></li>
+        <li><strong>B.S. Computational Mathematics</strong>, University of California, Los Angeles <span class="when">(2021)</span></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Find me</h2>
+      <ul class="links">
+        <li><a href="https://github.com/shubhroses">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/shubhrose-s-887abbb4">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>This page is a single HTML file with no scripts and no external requests. <a href="https://github.com/shubhroses/shubhroses.github.io">Source</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>
